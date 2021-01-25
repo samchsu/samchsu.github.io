@@ -40,10 +40,10 @@ const Link = styled.a`
 export function NavLinks(props) {
     return <NavLinksContainer>
         <LinksWrapper>
-            <LinkItem><Link href="aboutme">about me</Link></LinkItem>
-            <LinkItem><Link href="passions">passions</Link></LinkItem>
-            <LinkItem><Link href="socials">socials</Link></LinkItem>
-            <LinkItem><Link href="contact">contact</Link></LinkItem>
+            <LinkItem><Link href="/website-by-sam/aboutme">about me</Link></LinkItem>
+            <LinkItem><Link href="/website-by-sam/passions">passions</Link></LinkItem>
+            <LinkItem><Link href="/website-by-sam/socials">socials</Link></LinkItem>
+            <LinkItem><Link href="/website-by-sam/contact">contact</Link></LinkItem>
         </LinksWrapper>
     </NavLinksContainer>    
 }

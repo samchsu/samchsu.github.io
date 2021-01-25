@@ -50,10 +50,10 @@ const App = () => {
       <Navbar/>
       <BrowserRouter>
         <Switch>
-          <Route exact path="/">
-            <Redirect to="/aboutme" />
+          <Route exact path="/website-by-sam">
+            <Redirect to="/website-by-sam/aboutme" />
           </Route>
-          <Route path="/aboutme">
+          <Route path="/website-by-sam/aboutme">
             <ParticleEffect/>
           </Route>
         </Switch>
