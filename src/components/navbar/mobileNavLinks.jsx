@@ -53,7 +53,7 @@ export function MobileNavLinks(props) {
             <MenuToggle isOpen={isOpen} toggle={() => setOpen(!isOpen)} />
             {isOpen && (
                 <LinksWrapper>
-                    <LinkItem><Link href="/website-by-sam/aboutme">about me</Link></LinkItem>
+                    <LinkItem><Link href="https://samchsu.github.io/website-by-sam/aboutme">about me</Link></LinkItem>
                     <LinkItem><Link href="/website-by-sam/passions">passions</Link></LinkItem>
                     <LinkItem><Link href="/website-by-sam/socials">socials</Link></LinkItem>
                     <LinkItem><Link href="/website-by-sam/contact">contact</Link></LinkItem>
