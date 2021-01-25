@@ -14,7 +14,7 @@ export class ParticleEffect extends Component {
               value: "#000000",
             },
           },
-          fpsLimit: 60,
+          fpsLimit: 256,
           interactivity: {
             detectsOn: "canvas",
             events: {
@@ -69,7 +69,7 @@ export class ParticleEffect extends Component {
             number: {
               density: {
                 enable: true,
-                value_area: 2000,
+                value_area: 1000,
               },
               value: 120,
             },
