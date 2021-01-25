@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/website-by-sam/static/css/main.61a1eec7.chunk.css",
-    "main.js": "/website-by-sam/static/js/main.34d03196.chunk.js",
-    "main.js.map": "/website-by-sam/static/js/main.34d03196.chunk.js.map",
+    "main.css": "/website-by-sam/static/css/main.bbe237b3.chunk.css",
+    "main.js": "/website-by-sam/static/js/main.0f887cbb.chunk.js",
+    "main.js.map": "/website-by-sam/static/js/main.0f887cbb.chunk.js.map",
     "runtime-main.js": "/website-by-sam/static/js/runtime-main.b003cd28.js",
     "runtime-main.js.map": "/website-by-sam/static/js/runtime-main.b003cd28.js.map",
     "static/js/2.b4555388.chunk.js": "/website-by-sam/static/js/2.b4555388.chunk.js",
     "static/js/2.b4555388.chunk.js.map": "/website-by-sam/static/js/2.b4555388.chunk.js.map",
     "index.html": "/website-by-sam/index.html",
-    "static/css/main.61a1eec7.chunk.css.map": "/website-by-sam/static/css/main.61a1eec7.chunk.css.map",
+    "static/css/main.bbe237b3.chunk.css.map": "/website-by-sam/static/css/main.bbe237b3.chunk.css.map",
     "static/js/2.b4555388.chunk.js.LICENSE.txt": "/website-by-sam/static/js/2.b4555388.chunk.js.LICENSE.txt",
     "static/media/killua.52858f20.jpg": "/website-by-sam/static/media/killua.52858f20.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.b003cd28.js",
     "static/js/2.b4555388.chunk.js",
-    "static/css/main.61a1eec7.chunk.css",
-    "static/js/main.34d03196.chunk.js"
+    "static/css/main.bbe237b3.chunk.css",
+    "static/js/main.0f887cbb.chunk.js"
   ]
 }
