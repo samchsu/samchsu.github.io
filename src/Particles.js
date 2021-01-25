@@ -69,7 +69,7 @@ export class ParticleEffect extends Component {
             number: {
               density: {
                 enable: true,
-                value_area: 3000,
+                value_area: 2000,
               },
               value: 120,
             },

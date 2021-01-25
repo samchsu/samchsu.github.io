@@ -39,8 +39,7 @@ const LinkedinButton = styled.button`
   transition: all 240ms ease-in-out;
   cursor: pointer;
   &:hover {
-    color: #fff;
-    background-color: #00c9ff;
+    background-color: #EEEE;
   }
   &:not(:last-of-type) {
     margin-right: 7px;
@@ -50,7 +49,7 @@ const LinkedinButton = styled.button`
 export function Accessibility(props) {
   return (
     <AccessibilityContainer>
-      <LinkedinButton>LinkedIn</LinkedinButton>
+      <LinkedinButton href="https://google.com">LinkedIn</LinkedinButton>
     </AccessibilityContainer>
   );
 }

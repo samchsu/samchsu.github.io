@@ -28,7 +28,7 @@ export function Logo(props) {
     return ( 
         <LogoWrapper>
             <LogoImg> <img src={SamLogo} alt="Sam's Portfolio"/></LogoImg>
-            <LogoText>sam's site</LogoText>
+            <LogoText>sam's world</LogoText>
         </LogoWrapper>
     )
 }
