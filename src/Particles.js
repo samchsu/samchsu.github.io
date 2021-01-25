@@ -1,7 +1,9 @@
 import Particles from "react-tsparticles";
 import React, { Component } from 'react';
+import './Particles.css';
 
 export class ParticleEffect extends Component {
+  
   render() {
     return (
       <Particles
@@ -9,7 +11,7 @@ export class ParticleEffect extends Component {
         options={{
           background: {
             color: {
-              value: "#0d47a1",
+              value: "#000000",
             },
           },
           fpsLimit: 60,
@@ -44,10 +46,10 @@ export class ParticleEffect extends Component {
           },
           particles: {
             color: {
-              value: "#ffffff",
+              value: "#FFF200",
             },
             links: {
-              color: "#ffffff",
+              color: "#FFF200",
               distance: 150,
               enable: true,
               opacity: 0.5,
@@ -67,12 +69,12 @@ export class ParticleEffect extends Component {
             number: {
               density: {
                 enable: true,
-                value_area: 800,
+                value_area: 3000,
               },
-              value: 80,
+              value: 120,
             },
             opacity: {
-              value: 0.5,
+              value: 1,
             },
             shape: {
               type: "circle",
