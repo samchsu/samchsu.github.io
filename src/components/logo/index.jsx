@@ -20,7 +20,7 @@ const LogoText = styled.h2`
     font-size: 16px;
     margin: 0;
     margin-left: 8px;
-    color: #222;
+    color: #FF0000;
     font-weight: 500;
 `;
 

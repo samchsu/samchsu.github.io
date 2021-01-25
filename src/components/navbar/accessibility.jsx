@@ -30,7 +30,7 @@ const LinkedinButton = styled.button`
   border: 0;
   outline: 0;
   padding: 8px 1em;
-  color: #222;
+  color: #FFFFFF;
   font-size: 13px;
   font-weight: 600;
   border-radius: 20px;
@@ -40,6 +40,7 @@ const LinkedinButton = styled.button`
   cursor: pointer;
   &:hover {
     background-color: #EEEE;
+    color: #222;
   }
   &:not(:last-of-type) {
     margin-right: 7px;
