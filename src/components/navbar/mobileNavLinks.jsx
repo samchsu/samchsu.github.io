@@ -7,6 +7,7 @@ const NavLinksContainer = styled.div`
     height: 100%;
     display: flex;
     align-items: center;
+    z-index: 1;
 `;
 
 const LinksWrapper = styled.ul`
@@ -19,7 +20,7 @@ const LinksWrapper = styled.ul`
     width: 100%;
     flex-direction: column;
     position: fixed;
-    top: 65px;
+    top: 60px;
     left: 0;
 `;
 
