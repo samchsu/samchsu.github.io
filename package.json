@@ -2,7 +2,7 @@
   "name": "sam-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://samchsu.github.io/website-by-sam/",
+  "homepage": "https://samchsu.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
