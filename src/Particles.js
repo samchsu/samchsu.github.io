@@ -10,9 +10,9 @@ export class ParticleEffect extends Component {
         id="tsparticles"
         options={{
           background: {
-            color: {
-              value: "#000000",
-            },
+            //color: {
+            //  value: "#000000",
+           // },
           },
           fpsLimit: 256,
           interactivity: {
@@ -77,7 +77,7 @@ export class ParticleEffect extends Component {
               value: 1,
             },
             shape: {
-              type: "circle",
+              type: ["circle"],
             },
             size: {
               random: true,

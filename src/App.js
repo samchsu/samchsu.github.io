@@ -1,6 +1,6 @@
 import './App.css';
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import  { Redirect } from 'react-router-dom';
 import { Navbar } from './components/navbar';
 import {ParticleEffect} from './Particles.js';
@@ -48,16 +48,30 @@ const App = () => {
     <div className="App">
       <Cursor/>
       <Navbar/>
-      <BrowserRouter>
+      <HashRouter>
         <Switch>
-          <Route exact path="/website-by-sam">
-            <Redirect to="/website-by-sam/aboutme" />
+          <Route exact path="/">
+            <Redirect to="/aboutme" />
           </Route>
-          <Route path="/website-by-sam/aboutme">
-            <ParticleEffect/>
+          <Route path="/aboutme">
+              <ParticleEffect/>
+              <div className="item-wrapper">
+                <div className="text">
+                    coming soon
+                  </div>
+              </div>
+          </Route>
+          <Route path="/passions">
+            passions
+          </Route>
+          <Route path="/socials">
+            socials
+          </Route>
+          <Route path="/contact">
+            contact
           </Route>
         </Switch>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }

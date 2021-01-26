@@ -3,10 +3,10 @@
     height: 100%;
     position: fixed;
     background-image: url('');
-    background-size: cov
-    er;
+    background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
+    z-index: 1000;
   }
   
   .body-particles{
