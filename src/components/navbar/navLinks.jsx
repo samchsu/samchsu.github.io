@@ -9,7 +9,7 @@ const NavLinksContainer = styled.div`
 
 const LinksWrapper = styled.ul`
     margin: 0;
-    padding: 0;
+    padding-right: 100px;
     display: flex;
     height: 100%;
     list-style: none;
@@ -17,8 +17,8 @@ const LinksWrapper = styled.ul`
 
 const LinkItem = styled.li`
     height: 100%;
-    padding: 0 1.1em;
-    color: #DEF0EB;
+    padding: 0 2.5em;
+    color: #eaebfe;
     font-weight: 500;
     font-size: 14px;
     align-items: center;
