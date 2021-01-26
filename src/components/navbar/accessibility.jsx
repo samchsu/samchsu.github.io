@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Redirect } from "react-router-dom";
 
 const AccessibilityContainer = styled.div`
   display: flex;
@@ -38,6 +39,7 @@ const LinkedinButton = styled.button`
   border: 2px solid #EEEE;
   transition: all 240ms ease-in-out;
   cursor: pointer;
+  z-index: 100;
   &:hover {
     background-color: #EEEE;
     color: #222;
@@ -50,7 +52,7 @@ const LinkedinButton = styled.button`
 export function Accessibility(props) {
   return (
     <AccessibilityContainer>
-      <LinkedinButton href="https://google.com">LinkedIn</LinkedinButton>
+      <LinkedinButton onClick={(e) => (window.location = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstleyVEVO')}>Resume</LinkedinButton>
     </AccessibilityContainer>
   );
 }

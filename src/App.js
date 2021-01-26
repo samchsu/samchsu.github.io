@@ -62,13 +62,34 @@ const App = () => {
               </div>
           </Route>
           <Route path="/passions">
-            passions
+          <div className="item-wrapper">
+                <div className="text">
+                    passions
+                  </div>
+              </div>
           </Route>
           <Route path="/socials">
-            socials
+          <div className="item-wrapper">
+            <div className="text">
+              <a onClick={(e) => (window.location = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstleyVEVO')}>linkedin</a>
+            </div>
+            <br></br>
+            <div className="text">
+              <a onClick={(e) => (window.location = 'https://www.instagram.com/samuel.hsu/')}>instagram</a>
+            </div>
+            <br></br>
+            <div className="text">
+            <a onClick={(e) => (window.location = 'https://www.youtube.com/watch?v=QQe4BejejGg&ab_channel=SamHsu')}>youtube</a>
+            </div>
+            <br></br>
+          </div>
           </Route>
           <Route path="/contact">
-            contact
+          <div className="item-wrapper">
+            <div className="text">
+                contact
+              </div>
+          </div>
           </Route>
         </Switch>
       </HashRouter>
