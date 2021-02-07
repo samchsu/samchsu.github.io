@@ -4,6 +4,7 @@ import { HashRouter, Route, Switch } from 'react-router-dom';
 import  { Redirect } from 'react-router-dom';
 import { Navbar } from './components/navbar';
 import {ParticleEffect} from './Particles.js';
+//import lax from 'lax.js';
 
 const isMobile = () => {
   const ua = navigator.userAgent;
@@ -62,16 +63,16 @@ const App = () => {
               </div>
           </Route>
           <Route path="/passions">
-          <div className="item-wrapper">
-                <div className="text">
-                    passions
-                  </div>
+            <div className="item-wrapper">
+              <div className="text">
+                passions
               </div>
+            </div>
           </Route>
           <Route path="/socials">
           <div className="item-wrapper">
             <div className="text">
-              <a onClick={(e) => (window.location = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstleyVEVO')}>linkedin</a>
+              <a onClick={(e) => (window.location = 'https://www.linkedin.com/public-profile/in/samuel-hsu/?challengeId=AQE_AMo5qx5jxgAAAXd6AD3MP0jNRdNvc6vr4clbyLym5Z_SjYCJ_7UB1C0_68OdfYB5Iq1B_pd2_Hju7QBSZBGbx_lQMXClAg&submissionId=3db3771f-5651-6116-5c7d-fc1322ec4c17')}>linkedin</a>
             </div>
             <br></br>
             <div className="text">
