@@ -1,0 +1,17 @@
+#tsparticles{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    z-index: 1000;
+  }
+  
+  .body-particles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+  }
