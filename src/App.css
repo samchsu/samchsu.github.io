@@ -58,8 +58,19 @@ body {
   height: 100%;
   width: 100%;
   justify-content: center;
-  padding: 400px 0;
+  text-align: center;
+  padding: 180px 0;
   z-index: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
 }
 
 .text{
@@ -67,6 +78,12 @@ body {
   font-size: 36px;
   text-align: center;
   z-index: 0;
+}
+
+.samspic {
+  max-width: 480px;
+  height: auto;
+  margin: 20px auto;
 }
 
 h1{

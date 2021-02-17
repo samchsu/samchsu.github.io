@@ -4,6 +4,8 @@ import { HashRouter, Route, Switch } from 'react-router-dom';
 import  { Redirect } from 'react-router-dom';
 import { Navbar } from './components/navbar';
 import {ParticleEffect} from './Particles.js';
+import SamPic from "./assets/images/sampic.png";
+import TextLoop from "react-text-loop";
 //import lax from 'lax.js';
 
 const isMobile = () => {
@@ -57,9 +59,20 @@ const App = () => {
           <Route path="/aboutme">
               <ParticleEffect/>
               <div className="item-wrapper">
-                <div className="text">
-                    coming soon
-                  </div>
+              <div className="text">
+                hi, i'm sam and i like to <TextLoop springConfig={{ stiffness: 180, damping: 8 }}>
+                  <span>code</span>
+                  <span>play piano</span>
+                  <span>travel the world</span>
+                  <span>make beats</span>
+                  <span>play valorant</span>
+                  <span>listen to Rapcaviar</span>
+                  <span>sleep</span>
+                </TextLoop>.
+              </div>
+            </div>
+              <div className="item-wrapper">
+                <img src={SamPic} className="samspic responsive" alt="Sam's Pic"/>
               </div>
           </Route>
           <Route path="/passions">

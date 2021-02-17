@@ -30,6 +30,7 @@ const LinkItem = styled.li`
     font-weight: 500;
     font-size: 14px;
     display: flex;
+    justify-content: center;
     margin-bottom: 10px;
 `;
 
