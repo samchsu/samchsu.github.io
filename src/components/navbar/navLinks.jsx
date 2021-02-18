@@ -18,7 +18,7 @@ const LinksWrapper = styled.ul`
 const LinkItem = styled.li`
     height: 100%;
     padding: 0 2.5em;
-    color: #eaebfe;
+    color: #98e5f7;
     font-weight: 500;
     font-size: 14px;
     align-items: center;
@@ -28,7 +28,7 @@ const LinkItem = styled.li`
     transition: all 200ms ease-in-out; 
 
     &:hover {
-        border-bottom: 2px solid #2980b9;
+        border-bottom: 2px solid #E8AB4C;
     }
 `;
 
@@ -44,7 +44,6 @@ export function NavLinks(props) {
             <LinkItem><Link href="#/aboutme">about me</Link></LinkItem>
             <LinkItem><Link href="#/passions">passions</Link></LinkItem>
             <LinkItem><Link href="#/socials">socials</Link></LinkItem>
-            <LinkItem><Link href="#/contact">contact</Link></LinkItem>
         </LinksWrapper>
     </NavLinksContainer>    
 }

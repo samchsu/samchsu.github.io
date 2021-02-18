@@ -31,17 +31,17 @@ const LinkedinButton = styled.button`
   border: 0;
   outline: 0;
   padding: 8px 1em;
-  color: #BEBE;
+  color: #98e5f7;
   font-size: 13px;
   font-weight: 600;
   border-radius: 20px;
   background-color: transparent;
-  border: 2px solid #BEBE;
+  border: 2px solid #98e5f7;
   transition: all 240ms ease-in-out;
   cursor: pointer;
   z-index: 100;
   &:hover {
-    background-color: #BEBE;
+    background-color: #98e5f7;
     color: #222;
   }
   &:not(:last-of-type) {

@@ -66,7 +66,10 @@ const App = () => {
                   <span>travel the world</span>
                   <span>make beats</span>
                   <span>play valorant</span>
-                  <span>listen to Rapcaviar</span>
+                  <span>listen to rapcaviar</span>
+                  <span>invest in stonks</span>
+                  <span>collect sneakers</span>
+                  <span>watch twitch</span>
                   <span>sleep</span>
                 </TextLoop>.
               </div>
@@ -101,8 +104,8 @@ const App = () => {
           <Route path="/contact">
           <div className="item-wrapper">
             <div className="text">
-                contact
-              </div>
+              contact
+            </div>
           </div>
           </Route>
         </Switch>

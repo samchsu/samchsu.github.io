@@ -45,6 +45,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+span {
+  color: #98e5f7;
+}
 .partext-wrapper {
   position: relative;
   /* border: 3px solid blue; */
@@ -76,7 +79,7 @@ img {
 .text{
   position: relative;
   font-size: 36px;
-  text-align: center;
+  color: #E8AB4C;
   z-index: 0;
 }
 

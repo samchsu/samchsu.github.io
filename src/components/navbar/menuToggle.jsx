@@ -26,14 +26,14 @@ export function MenuToggle({ toggle, isOpen }) {
           animate={isOpen ? "open" : "closed"}
           initial={false}
           variants={{
-            closed: { d: "M 2 2.5 L 20 2.5", stroke: "hsl(0, 0%, 18%)" },
-            open: { d: "M 3 16.5 L 17 2.5", stroke: "hsl(0, 0%, 18%)" },
+            closed: { d: "M 2 2.5 L 20 2.5", stroke: "hsl(191, 86%, 78%)" },
+            open: { d: "M 3 16.5 L 17 2.5", stroke: "hsl(191, 86%, 78%)" },
           }}
           transition={transition}
         />
         <Path
           d="M 2 9.423 L 20 9.423"
-          stroke="hsl(0, 0%, 18%)"
+          stroke="hsl(191, 86%, 78%)"
           animate={isOpen ? "open" : "closed"}
           initial={false}
           variants={{
@@ -46,8 +46,8 @@ export function MenuToggle({ toggle, isOpen }) {
           animate={isOpen ? "open" : "closed"}
           initial={false}
           variants={{
-            closed: { d: "M 2 16.346 L 20 16.346", stroke: "hsl(0, 0%, 18%)" },
-            open: { d: "M 3 2.5 L 17 16.346", stroke: "hsl(0, 0%, 18%)" },
+            closed: { d: "M 2 16.346 L 20 16.346", stroke: "hsl(191, 86%, 78%)" },
+            open: { d: "M 3 2.5 L 17 16.346", stroke: "hsl(191, 86%, 78%)" },
           }}
           transition={transition}
         />
