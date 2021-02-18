@@ -44,19 +44,22 @@ const Marginer = styled.div`
   height: 2em;
 `;
 
+
 export function MobileNavLinks(props) {
     const [isOpen, setOpen] = useState(false);
+
+    function HandleClick() {
+        setOpen(!isOpen);
+    }
 
     return ( 
         <NavLinksContainer>
             <MenuToggle isOpen={isOpen} toggle={() => setOpen(!isOpen)} />
             {isOpen && (
                 <LinksWrapper>
-                    <LinkItem><Link href="#/aboutme">about me</Link></LinkItem>
-                    <LinkItem><Link href="#/passions">passions</Link></LinkItem>
-                    <LinkItem><Link href="#/socials">socials</Link></LinkItem>
-                    <LinkItem><Link href="#/contact">contact</Link></LinkItem>
-                    < Marginer />
+                    <LinkItem><Link href="#/aboutme" onClick={HandleClick}>about me</Link></LinkItem>
+                    <LinkItem><Link href="#/passions" onClick={HandleClick}>passions</Link></LinkItem>
+                    <LinkItem><Link href="#/socials" onClick={HandleClick}>socials</Link></LinkItem>
                     < Accessibility />
                 </LinksWrapper>
             )}
