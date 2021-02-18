@@ -75,7 +75,7 @@ const App = () => {
               </div>
             </div>
               <div className="item-wrapper">
-                <img src={SamPic} className="samspic responsive" alt="Sam's Pic"/>
+                <a><img src={SamPic} className="samspic responsive" alt="Sam's Pic"/></a>
               </div>
           </Route>
           <Route path="/passions">
@@ -99,13 +99,6 @@ const App = () => {
             <a onClick={(e) => (window.location = 'https://www.youtube.com/watch?v=QQe4BejejGg&ab_channel=SamHsu')}>youtube</a>
             </div>
             <br></br>
-          </div>
-          </Route>
-          <Route path="/contact">
-          <div className="item-wrapper">
-            <div className="text">
-              contact
-            </div>
           </div>
           </Route>
         </Switch>

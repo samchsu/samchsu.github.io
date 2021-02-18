@@ -43,6 +43,7 @@ const LinkedinButton = styled.button`
   &:hover {
     background-color: #98e5f7;
     color: #222;
+    cursor: none;
   }
   &:not(:last-of-type) {
     margin-right: 7px;
