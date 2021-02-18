@@ -41,6 +41,10 @@ a:hover {
   color: #E8AB4C;
 }
 
+.link:hover { 
+  background-color: #98e5f7; 
+}
+
 body {
   color: white;
   margin: 0;
