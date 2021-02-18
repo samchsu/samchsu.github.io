@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.6d09db06.chunk.css",
-    "main.js": "/static/js/main.f58322bb.chunk.js",
-    "main.js.map": "/static/js/main.f58322bb.chunk.js.map",
+    "main.css": "/static/css/main.4e6a0ee7.chunk.css",
+    "main.js": "/static/js/main.c0155aa9.chunk.js",
+    "main.js.map": "/static/js/main.c0155aa9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9fd86cc9.js",
     "runtime-main.js.map": "/static/js/runtime-main.9fd86cc9.js.map",
     "static/js/2.45cce0a6.chunk.js": "/static/js/2.45cce0a6.chunk.js",
     "static/js/2.45cce0a6.chunk.js.map": "/static/js/2.45cce0a6.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.6d09db06.chunk.css.map": "/static/css/main.6d09db06.chunk.css.map",
+    "static/css/main.4e6a0ee7.chunk.css.map": "/static/css/main.4e6a0ee7.chunk.css.map",
     "static/js/2.45cce0a6.chunk.js.LICENSE.txt": "/static/js/2.45cce0a6.chunk.js.LICENSE.txt",
     "static/media/killua.52858f20.jpg": "/static/media/killua.52858f20.jpg",
     "static/media/sampic.f549c5e7.png": "/static/media/sampic.f549c5e7.png"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.9fd86cc9.js",
     "static/js/2.45cce0a6.chunk.js",
-    "static/css/main.6d09db06.chunk.css",
-    "static/js/main.f58322bb.chunk.js"
+    "static/css/main.4e6a0ee7.chunk.css",
+    "static/js/main.c0155aa9.chunk.js"
   ]
 }
