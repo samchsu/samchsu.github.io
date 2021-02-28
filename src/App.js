@@ -1,4 +1,7 @@
 import './App.css';
+import AboutMe from "./Pages/AboutMe";
+import Passions from "./Pages/Passions";
+import Socials from "./Pages/Socials";
 import React, { useState, useEffect } from 'react';
 import { HashRouter, Route, Switch } from 'react-router-dom';
 import  { Redirect } from 'react-router-dom';
@@ -6,6 +9,9 @@ import { Navbar } from './components/navbar';
 import {ParticleEffect} from './Particles.js';
 import SamPic from "./assets/images/sampic.png";
 import TextLoop from "react-text-loop";
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-000000-01');
+ReactGA.pageview(window.location.pathname + window.location.search);
 //import lax from 'lax.js';
 
 const isMobile = () => {
@@ -54,52 +60,17 @@ const App = () => {
       <HashRouter>
         <Switch>
           <Route exact path="/">
-            <Redirect to="/aboutme" />
+            <Redirect to="/aboutme" component={AboutMe}/>
           </Route>
           <Route path="/aboutme">
               <ParticleEffect/>
-              <div className="item-wrapper">
-              <div className="text">
-                hi, i'm sam and i like to <TextLoop springConfig={{ stiffness: 180, damping: 8 }}>
-                  <span>code</span>
-                  <span>play piano</span>
-                  <span>travel the world</span>
-                  <span>make beats</span>
-                  <span>play valorant</span>
-                  <span>listen to rapcaviar</span>
-                  <span>invest in stonks</span>
-                  <span>collect sneakers</span>
-                  <span>watch twitch</span>
-                  <span>sleep</span>
-                </TextLoop>.
-              </div>
-            </div>
-              <div className="item-wrapper">
-                <a><img src={SamPic} className="samspic responsive" alt="Sam's Pic"/></a>
-              </div>
+              < AboutMe />
           </Route>
-          <Route path="/passions">
-            <div className="item-wrapper">
-              <div className="text">
-                passions
-              </div>
-            </div>
+          <Route path="/passions" component={Passions}>
+            
           </Route>
-          <Route path="/socials">
-          <div className="item-wrapper">
-            <div className="text">
-              <div className="link" onClick={(e) => (window.location = 'https://www.linkedin.com/public-profile/in/samuel-hsu/?challengeId=AQE_AMo5qx5jxgAAAXd6AD3MP0jNRdNvc6vr4clbyLym5Z_SjYCJ_7UB1C0_68OdfYB5Iq1B_pd2_Hju7QBSZBGbx_lQMXClAg&submissionId=3db3771f-5651-6116-5c7d-fc1322ec4c17')}>linkedin</div>
-            </div>
-            <br></br>
-            <div className="text">
-              <div className="link" onClick={(e) => (window.location = 'https://www.instagram.com/samuel.hsu/')}>instagram</div>
-            </div>
-            <br></br>
-            <div className="text">
-            <div className="link" onClick={(e) => (window.location = 'https://www.youtube.com/watch?v=QQe4BejejGg&ab_channel=SamHsu')}>youtube</div>
-            </div>
-            <br></br>
-          </div>
+          <Route path="/socials" component={Socials}>
+
           </Route>
         </Switch>
       </HashRouter>
