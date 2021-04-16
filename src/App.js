@@ -1,3 +1,4 @@
+/* For deployment, use command: npm run deploy */
 import './App.css';
 import AboutMe from "./Pages/AboutMe";
 import Passions from "./Pages/Passions";
@@ -6,10 +7,9 @@ import React, { useState, useEffect } from 'react';
 import { HashRouter, Route, Switch } from 'react-router-dom';
 import  { Redirect } from 'react-router-dom';
 import { Navbar } from './components/navbar';
-import {ParticleEffect} from './Particles.js';
-import SamPic from "./assets/images/sampic.png";
-import TextLoop from "react-text-loop";
 import ReactGA from 'react-ga';
+import Cards from './Pages/Cards/Cards';
+import { Link } from 'react-scroll';
 ReactGA.initialize('UA-000000-01');
 ReactGA.pageview(window.location.pathname + window.location.search);
 //import lax from 'lax.js';
@@ -63,10 +63,11 @@ const App = () => {
             <Redirect to="/aboutme" component={AboutMe}/>
           </Route>
           <Route path="/aboutme">
-              <ParticleEffect/>
+              
               < AboutMe />
+               < Cards /> 
           </Route>
-          <Route path="/passions" component={Passions}>
+          <Route path="/demo" component={Passions}>
             
           </Route>
           <Route path="/socials" component={Socials}>

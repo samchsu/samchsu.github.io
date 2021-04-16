@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { useState, useEffect } from 'react';
 import {ParticleEffect} from '../Particles.js';
 import SamPic from "../assets/images/sampic.png";
 import TextLoop from "react-text-loop";
@@ -8,6 +8,7 @@ import "../App.css";
 const AboutMe = () => { 
   return(
     <div className="item-wrapper">
+      <ParticleEffect/>
     <div className="text">
       hi, i'm sam and i like to <TextLoop springConfig={{ stiffness: 180, damping: 8 }}>
         <span>code</span>
