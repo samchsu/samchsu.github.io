@@ -2,6 +2,8 @@ import React, { useState} from 'react';
 import Button from "react-bootstrap/Button";
 import Confetti from 'react-confetti';
 import "./Passions.css";
+import "./Cards/Gallery.css";
+import Gallery from "./Cards/Gallery";
 
 function Passions () {
   const [count, setCount] = useState(0);
@@ -19,24 +21,8 @@ function Passions () {
     setParticle();
   }
   return(
-    <div className="item-wrapper">
-      <text>You clicked {count} times</text>
-      <p>{message}</p>
-      <div>{particle}</div>
-      <div className = "btn-wrapper">
-        <Button variant="link" className="counter-btn" onClick={() => setCount(count + 1)}>
-          +1
-        </Button>
-        <Button variant="link" className="counter-btn" onClick={() => setCount(count - 1)}>
-          -1
-        </Button>
-        <Button variant="link" className="counter-btn" onClick={surprise}>
-          Surprise 
-        </Button>
-        <Button variant="link" className="reset-btn" onClick={resetEverything}>
-          Reset
-        </Button>
-      </div>
+    <div>
+     <Gallery></Gallery>
     </div>
   )
 }

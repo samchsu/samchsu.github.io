@@ -11,14 +11,15 @@ const NavLinksContainer = styled.div`
 `;
 
 const LinksWrapper = styled.ul`
+    background-color: black;
     margin: 0;
-    padding: 0;
+    padding: 20px;
     display: flex;
-    height: 100%;
+    height: 150%;
     list-style: none;
     width: 100%;
     flex-direction: column;
-    position: fixed;
+    position: absolute;
     top: 60px;
     left: 0;
 `;

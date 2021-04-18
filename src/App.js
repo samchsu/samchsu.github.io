@@ -8,7 +8,8 @@ import { HashRouter, Route, Switch } from 'react-router-dom';
 import  { Redirect } from 'react-router-dom';
 import { Navbar } from './components/navbar';
 import ReactGA from 'react-ga';
-import Cards from './Pages/Cards/Cards';
+import Gallery from './Pages/Cards/Gallery';
+import Footer from './Pages/Cards/Footer';
 import { Link } from 'react-scroll';
 ReactGA.initialize('UA-000000-01');
 ReactGA.pageview(window.location.pathname + window.location.search);
@@ -65,7 +66,7 @@ const App = () => {
           <Route path="/aboutme">
               
               < AboutMe />
-               < Cards /> 
+               < Gallery />
           </Route>
           <Route path="/passions" component={Passions}>
             

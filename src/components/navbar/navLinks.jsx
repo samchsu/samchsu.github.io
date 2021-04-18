@@ -5,7 +5,7 @@ const NavLinksContainer = styled.div`
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-right: 55px;
+    margin-right: 67px;
     z-index: 100;
 `;
 
