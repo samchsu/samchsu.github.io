@@ -19,7 +19,7 @@ const AboutMe = () => {
         <span>listen to rapcaviar</span>
         <span>invest in stonks</span>
         <span>collect sneakers</span>
-        <span>find obscure youtube channels</span>
+        <span>go on youtube</span>
         <span>watch twitch</span>
         <span>sleep</span>
       </TextLoop>.

@@ -1,50 +1,36 @@
 import React from 'react';
 import './Cards.css';
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+import Container from 'react-bootstrap/Container'
+import Image from 'react-bootstrap/Image'
+import PIC from "../../assets/images/coronado-15.jpg";
+import venice from "../../assets/images/veniceEdited.png";
 import CardItem from './CardItem';
+import beach from "../../assets/images/beach pic.jpg";
 
 function Cards() {
     return (
         <div className='cards'>
-        <h1>a little more about me...</h1>
-        <div className='cards__container'>
-          <div className='cards__wrapper'>
-            <ul className='cards__items'>
-              <CardItem
-                src='images/img-9.jpg'
-                text='Explore the hidden waterfall deep inside the Amazon Jungle'
-                label='Adventure'
-                path='/services'
-              />
-              <CardItem
-                src='images/img-2.jpg'
-                text='Travel through the Islands of Bali in a Private Cruise'
-                label='Luxury'
-                path='/services'
-              />
-            </ul>
-            <ul className='cards__items'>
-              <CardItem
-                src='images/img-3.jpg'
-                text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-                label='Mystery'
-                path='/services'
-              />
-              <CardItem
-                src='images/img-4.jpg'
-                text='Experience Football on Top of the Himilayan Mountains'
-                label='Adventure'
-                path='/products'
-              />
-              <CardItem
-                src='images/img-8.jpg'
-                text='Ride through the Sahara Desert on a guided camel tour'
-                label='Adrenaline'
-                path='/sign-up'
-              />
-            </ul>
-          </div>
+          <h1>gallery</h1>
+          <div class="row">
+  <div class="column">
+  <img src={PIC} />
+  <img src={venice}/>
+  </div>
+  <div class="column">
+  <img src={venice}/>
+  <img src={beach}/>
+
+  </div>
+  <div class="column">
+
+  </div>
+  <div class="column">
+
+  </div>
+</div>
         </div>
-      </div>
     );
 }
 

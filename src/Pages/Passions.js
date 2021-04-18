@@ -20,7 +20,7 @@ function Passions () {
   }
   return(
     <div className="item-wrapper">
-      <p>You clicked {count} times</p>
+      <text>You clicked {count} times</text>
       <p>{message}</p>
       <div>{particle}</div>
       <div className = "btn-wrapper">

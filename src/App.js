@@ -67,7 +67,7 @@ const App = () => {
               < AboutMe />
                < Cards /> 
           </Route>
-          <Route path="/demo" component={Passions}>
+          <Route path="/passions" component={Passions}>
             
           </Route>
           <Route path="/socials" component={Socials}>
