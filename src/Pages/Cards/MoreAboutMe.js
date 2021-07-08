@@ -1,5 +1,7 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
+import Fade from 'react-reveal/Fade';
 import './Gallery.css';
+import './MoreAboutMe.css';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
@@ -13,30 +15,26 @@ import torrey from "../../assets/images/torrey.JPEG";
 import forest from "../../assets/images/forest.JPG";
 import snow from "../../assets/images/snowy.png";
 
-function Gallery() {
+
+function MoreAboutMe() {
+
     return (
       <div className='cards'>
-        <br></br><h1>gallery</h1><br></br>
+        <br></br><Fade><h1>About Me</h1></Fade><br></br>
         <div class="row">
-          <div class="column">
-            <img src={PIC} />
-            <img src={venice}/>
-          </div>
-          <div class="column">
-            <img src={canada}/>
-            <img src={torrey}/>
-
-          </div>
-            <div class="column">
-                <img src={snow}/>
-                <img src={forest}/>
+          <br></br>
+          <Fade>
+            <div className="image-container">helo</div>
+            <div className="text-container">
+              <div>I'm a recent CS graduate from San Diego State University with experience 
+              in Full Stack Web Development.</div>
             </div>
-          <div class="column">
-
-          </div>
+          </Fade>
+          <br></br>
         </div>
       </div>
     );
 }
 
-export default Gallery;
+
+export default MoreAboutMe;

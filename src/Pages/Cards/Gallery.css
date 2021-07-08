@@ -1,5 +1,5 @@
 .cards {
-    padding: 4rem;
+    padding: 2rem;
     background-color: #A9948B;
   }
   
@@ -7,10 +7,35 @@
     text-align: center;
   }
   
+  h2 {
+    text-align: right;
+  }
+  
+  .subtext {
+    width:40%;
+    color: black;
+  }
+
   .row {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
+  }
+  
+  .text-container {
+    flex: 50%;
+    max-width: 50%;
+    height: 150px;
+    padding: 0px 4px;
+    background-color: #9D888C;
+  }
+
+  .image-container {
+    flex: 50%;
+    max-width: 50%;
+    height: 150px;
+    padding: 0px 4px;
+    background-color: black;
   }
   
   /* Create four equal columns that sits next to each other */
@@ -45,4 +70,19 @@
       flex: 100%;
       max-width: 50%;
     }
+
   }
+
+  @media screen and (max-width: 934px) {
+
+    .text-container { 
+       font-size: .9em; 
+    }
+ }
+
+ @media screen and (max-width: 833px) {
+
+  .text-container { 
+     font-size: .7em; 
+  }
+ }

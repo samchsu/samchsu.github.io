@@ -2,6 +2,7 @@
 import './App.css';
 import AboutMe from "./Pages/AboutMe";
 import Passions from "./Pages/Passions";
+import MoreAboutMe from "./Pages/Cards/MoreAboutMe";
 import Socials from "./Pages/Socials";
 import React, { useState, useEffect } from 'react';
 import { HashRouter, Route, Switch } from 'react-router-dom';
@@ -11,6 +12,8 @@ import ReactGA from 'react-ga';
 import Gallery from './Pages/Cards/Gallery';
 import Footer from './Pages/Cards/Footer';
 import { Link } from 'react-scroll';
+import Fade from 'react-reveal/Fade';
+
 ReactGA.initialize('UA-000000-01');
 ReactGA.pageview(window.location.pathname + window.location.search);
 //import lax from 'lax.js';
@@ -66,7 +69,7 @@ const App = () => {
           <Route path="/aboutme">
               
               < AboutMe />
-               < Gallery />
+              < MoreAboutMe />
           </Route>
           <Route path="/passions" component={Passions}>
             

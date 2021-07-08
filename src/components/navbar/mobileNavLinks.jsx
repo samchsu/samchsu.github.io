@@ -59,7 +59,7 @@ export function MobileNavLinks(props) {
             {isOpen && (
                 <LinksWrapper>
                     <LinkItem><Link href="#/aboutme" onClick={HandleClick}>about me</Link></LinkItem>
-                    <LinkItem><Link href="#/passions" onClick={HandleClick}>passions</Link></LinkItem>
+                    <LinkItem><Link href="#/passions" onClick={HandleClick}>gallery</Link></LinkItem>
                     <LinkItem><Link href="#/socials" onClick={HandleClick}>socials</Link></LinkItem>
                     < Accessibility />
                 </LinksWrapper>
