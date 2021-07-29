@@ -1,4 +1,4 @@
-# This is sam hsu's portfolio website
+# This is Sam Hsu's Portfolio Website
 
 This website was created with React and deployed using Github Pages
 
