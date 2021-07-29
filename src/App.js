@@ -16,12 +16,9 @@ import Fade from 'react-reveal/Fade';
 import { HashLink } from 'react-router-hash-link';
 import smoothscroll from 'smoothscroll-polyfill';
  
-// kick off the polyfill!
 smoothscroll.polyfill();
-
 ReactGA.initialize('UA-000000-01');
 ReactGA.pageview(window.location.pathname + window.location.search);
-//import lax from 'lax.js';
 
 const isMobile = () => {
   const ua = navigator.userAgent;
