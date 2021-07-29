@@ -2,12 +2,16 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import { Accessibility } from "./accessibility";
 import { MenuToggle } from "./menuToggle";
+import smoothscroll from 'smoothscroll-polyfill';
+// kick off the polyfill!
+smoothscroll.polyfill();
 
 const NavLinksContainer = styled.div`
     height: 100%;
     display: flex;
     align-items: center;
     z-index: 1500;
+    cursor: pointer;
 `;
 
 const LinksWrapper = styled.ul`
@@ -15,7 +19,7 @@ const LinksWrapper = styled.ul`
     margin: 0;
     padding: 20px;
     display: flex;
-    height: 150%;
+    height: auto;
     list-style: none;
     width: 100%;
     flex-direction: column;
@@ -33,6 +37,7 @@ const LinkItem = styled.li`
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
+    cursor: pointer;
 `;
 
 const Link = styled.a`
@@ -53,14 +58,40 @@ export function MobileNavLinks(props) {
         setOpen(!isOpen);
     }
 
+    function handleAboutClick(e) {
+        setOpen(!isOpen);
+        e.preventDefault();
+        document.querySelector('.section-aboutme').scrollIntoView({ behavior: 'smooth' });
+        console.log("clicked")
+      }
+      function handleProjectsClick(e) {
+        setOpen(!isOpen);
+        e.preventDefault();
+        document.querySelector('.section-projects').scrollIntoView({ behavior: 'smooth' });
+        console.log("clicked")
+      }
+      function handleExperienceClick(e) {
+        setOpen(!isOpen);
+        e.preventDefault();
+        document.querySelector('.section-experience').scrollIntoView({ behavior: 'smooth' });
+        console.log("clicked")
+      }
+      function handleContactClick(e) {
+        setOpen(!isOpen);
+        e.preventDefault();
+        document.querySelector('.section-contact').scrollIntoView({ behavior: 'smooth' });
+        console.log("clicked")
+      }
+
     return ( 
         <NavLinksContainer>
             <MenuToggle isOpen={isOpen} toggle={() => setOpen(!isOpen)} />
             {isOpen && (
                 <LinksWrapper>
-                    <LinkItem><Link href="#/aboutme" onClick={HandleClick}>about me</Link></LinkItem>
-                    <LinkItem><Link href="#/passions" onClick={HandleClick}>gallery</Link></LinkItem>
-                    <LinkItem><Link href="#/socials" onClick={HandleClick}>socials</Link></LinkItem>
+                    <LinkItem><Link onClick={handleAboutClick}>about me</Link></LinkItem>
+                    <LinkItem><Link onClick={handleProjectsClick}>projects</Link></LinkItem>
+                    <LinkItem><Link onClick={handleExperienceClick}>experience</Link></LinkItem>
+                    <LinkItem><Link onClick={handleContactClick}>contact</Link></LinkItem>
                     < Accessibility />
                 </LinksWrapper>
             )}

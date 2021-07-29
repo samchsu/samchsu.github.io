@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Redirect } from "react-router-dom";
-
+import resume from "../../assets/docs/Samuel C Hsu - Resume.pdf"
 const AccessibilityContainer = styled.div`
   display: flex;
   justify-content: center;
@@ -27,7 +27,7 @@ const RegisterButton = styled.button`
   }
 `;
 
-const LinkedinButton = styled.button`
+const ResumeButton = styled.button`
   border: 0;
   outline: 0;
   padding: 8px 1em;
@@ -43,7 +43,6 @@ const LinkedinButton = styled.button`
   &:hover {
     background-color: #98e5f7;
     color: #222;
-    cursor: none;
   }
   &:not(:last-of-type) {
     margin-right: 7px;
@@ -53,7 +52,7 @@ const LinkedinButton = styled.button`
 export function Accessibility(props) {
   return (
     <AccessibilityContainer>
-      <LinkedinButton onClick={(e) => (window.location = 'https://www.linkedin.com/public-profile/in/samuel-hsu/?challengeId=AQE_AMo5qx5jxgAAAXd6AD3MP0jNRdNvc6vr4clbyLym5Z_SjYCJ_7UB1C0_68OdfYB5Iq1B_pd2_Hju7QBSZBGbx_lQMXClAg&submissionId=3db3771f-5651-6116-5c7d-fc1322ec4c17')}>Linkedin</LinkedinButton>
+      <ResumeButton onClick={(e) => (window.location = resume)}>Resume</ResumeButton>
     </AccessibilityContainer>
   );
 }

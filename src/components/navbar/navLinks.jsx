@@ -1,4 +1,7 @@
 import styled from "styled-components";
+import smoothscroll from 'smoothscroll-polyfill';
+// kick off the polyfill!
+smoothscroll.polyfill();
 
 const NavLinksContainer = styled.div`
     height: 100%;
@@ -28,6 +31,7 @@ const LinkItem = styled.li`
     transition: all 200ms ease-in-out; 
     &:hover {
         border-bottom: 2px solid #E8AB4C;
+        cursor: pointer;
     }
 `;
 
@@ -38,11 +42,32 @@ const Link = styled.a`
 `;
 
 export function NavLinks(props) {
+    function handleAboutClick(e) {
+        e.preventDefault();
+        document.querySelector('.section-aboutme').scrollIntoView({ behavior: 'smooth' });
+        console.log("clicked")
+      }
+      function handleProjectsClick(e) {
+        e.preventDefault();
+        document.querySelector('.section-projects').scrollIntoView({ behavior: 'smooth' });
+        console.log("clicked")
+      }
+      function handleExperienceClick(e) {
+        e.preventDefault();
+        document.querySelector('.section-experience').scrollIntoView({ behavior: 'smooth' });
+        console.log("clicked")
+      }
+      function handleContactClick(e) {
+        e.preventDefault();
+        document.querySelector('.section-contact').scrollIntoView({ behavior: 'smooth' });
+        console.log("clicked")
+      }
     return <NavLinksContainer>
         <LinksWrapper>
-            <LinkItem><Link href="#/aboutme">about me</Link></LinkItem>
-            <LinkItem><Link href="#/passions">gallery</Link></LinkItem>
-            <LinkItem><Link href="#/socials">socials</Link></LinkItem>
+            <LinkItem onClick={handleAboutClick}><Link>about me</Link></LinkItem>
+            <LinkItem onClick={handleProjectsClick}><Link>projects</Link></LinkItem>
+            <LinkItem onClick={handleExperienceClick}><Link>experience</Link></LinkItem>
+            <LinkItem onClick={handleContactClick}><Link>contact</Link></LinkItem>
         </LinksWrapper>
     </NavLinksContainer>    
 }

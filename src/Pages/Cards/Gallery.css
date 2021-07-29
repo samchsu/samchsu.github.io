@@ -1,6 +1,6 @@
 .cards {
-    padding: 2rem;
-    background-color: #A9948B;
+    padding: 1rem;
+    background-color: #000000;
   }
   
   h1 {
@@ -22,21 +22,6 @@
     padding: 0 4px;
   }
   
-  .text-container {
-    flex: 50%;
-    max-width: 50%;
-    height: 150px;
-    padding: 0px 4px;
-    background-color: #9D888C;
-  }
-
-  .image-container {
-    flex: 50%;
-    max-width: 50%;
-    height: 150px;
-    padding: 0px 4px;
-    background-color: black;
-  }
   
   /* Create four equal columns that sits next to each other */
   .column {

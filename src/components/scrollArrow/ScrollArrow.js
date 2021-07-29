@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import {FaArrowCircleUp} from 'react-icons/fa';
-import '../../../App.css';
-
+import "../../App.css"
 
 const ScrollArrow = () =>{
 
