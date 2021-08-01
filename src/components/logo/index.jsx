@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import SamLogo from "../../assets/images/killua.jpg";
-import xu from "../../assets/images/xu.png";
 import smoothscroll from 'smoothscroll-polyfill';
 // kick off the polyfill!
 smoothscroll.polyfill();
@@ -29,8 +28,10 @@ const LogoImg = styled.div`
 
 const LogoText = styled.h2`
     font-size: 16px;
+    text-align: center;
     margin: 0;
     margin-left: 8px;
+    margin-right: 35px;
     font-weight: 500;
     color: inherit;
 `;
@@ -43,7 +44,6 @@ export function Logo(props) {
     }
     return ( 
         <LogoWrapper onClick={handleClick}>
-            <LogoImg> <img src={xu} class="image" alt="Xu"/></LogoImg>
             <LogoText>sam's portfolio</LogoText>
         </LogoWrapper>
     )

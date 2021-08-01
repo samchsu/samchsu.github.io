@@ -26,6 +26,7 @@ const LinkItem = styled.li`
     font-size: 14px;
     align-items: center;
     justify-content: center;
+    text-align: center;
     display: flex;
     border-bottom: 2px solid transparent;
     transition: all 200ms ease-in-out; 
