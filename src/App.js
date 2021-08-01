@@ -9,56 +9,13 @@ import { HashRouter, Route, Switch } from 'react-router-dom';
 import  { Redirect } from 'react-router-dom';
 import { Navbar } from './components/navbar';
 import ReactGA from 'react-ga';
-import Gallery from './Pages/Cards/Gallery';
-import Footer from './Pages/Cards/Footer';
-import { Link } from 'react-scroll';
-import Fade from 'react-reveal/Fade';
-import { HashLink } from 'react-router-hash-link';
 import smoothscroll from 'smoothscroll-polyfill';
  
 smoothscroll.polyfill();
 ReactGA.initialize('UA-000000-01');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
-const isMobile = () => {
-  const ua = navigator.userAgent;
-  return /Android|Mobi/i.test(ua);
-};
-
-
-  window.scrollBy({ top: 100, left: 0, behavior: 'smooth' });
-
-// const Cursor = () => {
-//   const [position, setPosition] = useState({x: 0, y: 0});
-
-//   useEffect(() => {
-//     addEventListeners();
-//     return () => removeEventListeners();
-//   }, []);
-  
-//   const addEventListeners = () => {
-//     document.addEventListener("mousemove", onMouseMove);
-//   };
-
-//   const removeEventListeners = () => {
-//     document.removeEventListener("mousemove", onMouseMove);
-//   };
-
-//   const onMouseMove = (e) => {
-//     setPosition({x: e.clientX, y: e.clientY});
-//   };
-
-//   if (typeof navigator !== 'undefined' && isMobile())
-//   {
-//     return null;
-//   } 
-  
-//   return <div className="cursor"
-//     style={{
-//       left: `${position.x}px`,
-//       top: `${position.y}px`
-//     }}/>
-// }
+window.scrollBy({ top: 100, left: 0, behavior: 'smooth' });
 
 const App = () => {
 

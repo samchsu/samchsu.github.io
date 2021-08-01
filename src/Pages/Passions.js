@@ -2,8 +2,6 @@ import React, { useState} from 'react';
 import Button from "react-bootstrap/Button";
 import Confetti from 'react-confetti';
 import "./Passions.css";
-import "./Cards/Gallery.css";
-import Gallery from "./Cards/Gallery";
 
 function Passions () {
   const [count, setCount] = useState(0);
@@ -22,7 +20,7 @@ function Passions () {
   }
   return(
     <div>
-     <Gallery></Gallery>
+     hello
     </div>
   )
 }

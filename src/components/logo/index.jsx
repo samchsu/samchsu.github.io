@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import SamLogo from "../../assets/images/killua.jpg";
 import smoothscroll from 'smoothscroll-polyfill';
 // kick off the polyfill!
 smoothscroll.polyfill();
