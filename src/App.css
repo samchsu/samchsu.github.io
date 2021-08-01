@@ -190,6 +190,7 @@ img {
 
 .samspic {
   max-width: 480px;
+  max-height: 742px;
   bottom: 0;
   position: absolute;
   margin-bottom: -220px;

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import {ParticleEffect} from '../Particles.js';
-import SamPic from "../assets/images/sampic.png";
+import SamPic from "../assets/images/samspic.png";
 import TextLoop from "react-text-loop";
 import ReactGA from 'react-ga';
 import "../App.css";
