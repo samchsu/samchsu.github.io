@@ -34,7 +34,7 @@ const AboutMe = () => {
         </div>
         {/* <button onClick={handleClick}>Scroll Down</button> */}
       </div>
-      <a><img src={SamPic} className="samspic" alt="Sam's Pic"/></a>
+      <img src={SamPic} className="samspic" alt="Sam's Pic"/>
     </div>
   )
 }

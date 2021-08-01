@@ -1,8 +1,7 @@
 /* For deployment, use command: npm run deploy */
 import './App.css';
 import AboutMe from "./Pages/AboutMe";
-import Passions from "./Pages/Passions";
-import MoreAboutMe from "./Pages/Cards/MoreAboutMe";
+import MoreAboutMe from "./Pages/MoreAboutMe";
 import Socials from "./Pages/Socials";
 import React, { useState, useEffect } from 'react';
 import { HashRouter, Route, Switch } from 'react-router-dom';
@@ -33,9 +32,6 @@ const App = () => {
           <Route path="/aboutme">              
               < AboutMe />
               < MoreAboutMe />
-          </Route>
-          <Route path="/passions" component={Passions}>
-            
           </Route>
           <Route path="/socials" component={Socials}>
 

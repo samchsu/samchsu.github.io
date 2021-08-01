@@ -34,6 +34,7 @@ a:hover {
 
 body {
   color: #bbcdff;
+  overflow-x: hidden;
   margin: 0;
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI",
     "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
@@ -71,15 +72,18 @@ span {
 
 .item-wrapper{
   width: 100%;
+  height: 99.85vh;
+  position: relative;
   display: flex;
   background-color: black;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   z-index: 0;
   overflow: hidden;
-  height: 200px;
   border-bottom: 2px solid rgb(104, 108, 170);
 }
+
 
 .socials-wrapper{
   width: 100%;
@@ -100,10 +104,9 @@ img {
 }
 
 .text-landing{
-  font-size: 74px;
+  font-size: 84px;
   color: #E8AB4C;
   z-index: 0;
-  cursor:pointer;
 }
 
 .text-desc{
@@ -115,9 +118,8 @@ img {
 }
 
 .text-wrapper{
-  width: 100%;
   position: relative;
-  top: 20px;
+  margin-top: -180px;
   text-align: center;
   justify-content: center;
 }
@@ -188,11 +190,12 @@ img {
 
 .samspic {
   max-width: 480px;
-  vertical-align: bottom;
-  margin-bottom: -420px;
-  position: relative;
+  bottom: 0;
+  position: absolute;
+  margin-bottom: -220px;
   z-index:99999;
 }
+
 
 scrolldown {
   z-index: 9000;
@@ -216,10 +219,6 @@ h1{
 }
 
 @media screen and (max-width: 720px){
-  .samspic {
-    width:360px;
-  }
-
   .email-text {
     font-size: 25px;
     border: .5px solid #98e5f7; 
@@ -237,22 +236,17 @@ h1{
 }
 
 @media screen and (max-width: 570px){
-  .samspic {
-    width:320px;
-  }
 
   .text-landing {
     font-size: 58px;
   }
+
+  .samspic {
+    margin-bottom: -180px;
+  }
 }
 
 @media screen and (max-width: 400px){
-  h1 {
-    font-size: 18px;
-  }
-  .samspic {
-    width:300px;
-  }
   
   .text-desc-dev {
     font-size: 24px;
@@ -272,7 +266,7 @@ h1{
   
 
   .text-landing{
-    font-size: 36px;
+    font-size: 48px;
   }
 }
 

@@ -3,7 +3,7 @@ import Fade from 'react-reveal/Fade';
 import './MoreAboutMe.css';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import Social from '../Socials.js';
+import Social from './Socials.js';
 import smoothscroll from 'smoothscroll-polyfill';
  
 // kick off the polyfill!

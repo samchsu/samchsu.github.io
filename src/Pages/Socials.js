@@ -1,8 +1,4 @@
 import React, { Component } from 'react';
-import {ParticleEffect} from '../Particles.js';
-import SamPic from "../assets/images/sampic.png";
-import TextLoop from "react-text-loop";
-import ReactGA from 'react-ga';
 import "../App.css";
 
 const Socials = () => { 
