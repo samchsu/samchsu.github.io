@@ -42,8 +42,8 @@ function MoreAboutMe() {
                 <div className="projects" type="button" onClick={(e) => { e.preventDefault(); window.location.href='https://github.com/samchsu/samchsu.github.io';}}>
                   <h1>Web Portfolio</h1>
                 </div>
-                <div className="projects" type="button" onClick={(e) => { e.preventDefault(); window.location.href='https://github.com/samchsu/chatup';}}>
-                  <h1>ChatUp</h1>
+                <div className="projects" type="button" onClick={(e) => { e.preventDefault(); window.location.href='https://github.com/samchsu/spootify/tree/main/my-app';}}>
+                  <h1>Spootify</h1>
                 </div>
                 <div className="projects" type="button" onClick={(e) => { e.preventDefault(); window.location.href='https://github.com/samchsu/The-Aftermath/tree/master';}}>
                   <h1>The AfterMath</h1>
