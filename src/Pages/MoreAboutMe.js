@@ -42,7 +42,7 @@ function MoreAboutMe() {
                 <div className="projects" type="button" onClick={(e) => { e.preventDefault(); window.location.href='https://github.com/samchsu/samchsu.github.io';}}>
                   <h1>Web Portfolio</h1>
                 </div>
-                <div className="projects" type="button" onClick={(e) => { e.preventDefault(); window.location.href='https://github.com/samchsu/spootify/tree/main/my-app';}}>
+                <div className="projects" type="button" onClick={(e) => { e.preventDefault(); window.location.href='https://github.com/samchsu/spootify';}}>
                   <h1>Spootify</h1>
                 </div>
                 <div className="projects" type="button" onClick={(e) => { e.preventDefault(); window.location.href='https://github.com/samchsu/The-Aftermath/tree/master';}}>
@@ -63,7 +63,7 @@ function MoreAboutMe() {
                         <h3 className="vertical-timeline-element-title">Full Stack Intern to Developer</h3>
                         <h4 className="vertical-timeline-element-subtitle">Mathly</h4>
                         <p>
-                        I worked in Full Stack Development, focused on AWS and React.js (frontend) with Node.js (backend)
+                          I worked in Full Stack Development, focused on AWS and React.js (frontend) with Node.js (backend)
                         </p>
                       </VerticalTimelineElement>
                       <VerticalTimelineElement
@@ -87,7 +87,7 @@ function MoreAboutMe() {
                         <h3 className="vertical-timeline-element-title">Student IT Technician</h3>
                         <h4 className="vertical-timeline-element-subtitle">San Diego State University</h4>
                         <p>
-                        I worked in the College of Sciences as an IT, assisting professors and student assistants with Windows computers
+                          I worked in the College of Sciences as an IT, assisting professors and student assistants with Windows computers
                         </p>
                       </VerticalTimelineElement>
 
