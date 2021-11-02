@@ -55,9 +55,10 @@ function MoreAboutMe() {
                     <VerticalTimeline>
                       <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        contentStyle={{ background: 'rgb(0, 0, 0)', color: '#fffacd' }}
+                        contentStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
                         contentArrowStyle={{ borderRight: '7px solid  rgb(255,250,205)' }}
-                        date="Nov 2020 - Present"
+                        date="Nov 2020 - Oct 2021"
+                        dateClassName={ "timeline-date-color" }
                         iconStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
                       >
                         <h3 className="vertical-timeline-element-title">Full Stack Intern to Developer</h3>
@@ -69,7 +70,8 @@ function MoreAboutMe() {
                       <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         date="Sep 2020 - Present"
-                        contentStyle={{ background: 'rgb(0, 0, 0)', color: '#fffacd' }}
+                        dateClassName={ "timeline-date-color" }
+                        contentStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
                         iconStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
                       >
                         <h3 className="vertical-timeline-element-title">Web Designer</h3>
@@ -81,7 +83,8 @@ function MoreAboutMe() {
                       <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         date="Sep 2018 - May 2020"
-                        contentStyle={{ background: 'rgb(0, 0, 0)', color: '#fffacd' }}
+                        dateClassName={ "timeline-date-color" }
+                        contentStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
                         iconStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
                       >
                         <h3 className="vertical-timeline-element-title">Student IT Technician</h3>

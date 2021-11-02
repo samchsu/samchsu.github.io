@@ -138,6 +138,10 @@ h1 {
   border-color: lemonchiffon;
 }
 
+.timeline-date-color {
+  color: #fff;
+}
+
 .projects {
   display: flex;
   justify-content: center;
