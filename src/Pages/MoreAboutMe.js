@@ -45,8 +45,8 @@ function MoreAboutMe() {
                 <div className="projects" type="button" onClick={(e) => { e.preventDefault(); window.location.href='https://github.com/samchsu/spootify';}}>
                   <h1>Spootify</h1>
                 </div>
-                <div className="projects" type="button" onClick={(e) => { e.preventDefault(); window.location.href='https://github.com/samchsu/The-Aftermath/tree/master';}}>
-                  <h1>The AfterMath</h1>
+                <div className="projects" type="button" onClick={(e) => { e.preventDefault(); window.location.href='https://github.com/samchsu/Path-Finder-Visualization';}}>
+                  <h1>A* Path-Finder</h1>
                 </div>
               </div>
               <section>
@@ -57,7 +57,7 @@ function MoreAboutMe() {
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
                         contentArrowStyle={{ borderRight: '7px solid  rgb(255,250,205)' }}
-                        date="Nov 2020 - Oct 2021"
+                        date="Nov 2020 - Sep 2021"
                         dateClassName={ "timeline-date-color" }
                         iconStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
                       >
