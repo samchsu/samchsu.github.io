@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.7a2502f7.chunk.css",
-    "main.js": "/static/js/main.65dead21.chunk.js",
-    "main.js.map": "/static/js/main.65dead21.chunk.js.map",
+    "main.js": "/static/js/main.03d7aba6.chunk.js",
+    "main.js.map": "/static/js/main.03d7aba6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9fd86cc9.js",
     "runtime-main.js.map": "/static/js/runtime-main.9fd86cc9.js.map",
     "static/css/2.2aa38b9c.chunk.css": "/static/css/2.2aa38b9c.chunk.css",
@@ -12,7 +12,7 @@
     "static/css/2.2aa38b9c.chunk.css.map": "/static/css/2.2aa38b9c.chunk.css.map",
     "static/css/main.7a2502f7.chunk.css.map": "/static/css/main.7a2502f7.chunk.css.map",
     "static/js/2.b7e61308.chunk.js.LICENSE.txt": "/static/js/2.b7e61308.chunk.js.LICENSE.txt",
-    "static/media/Samuel C Hsu - Resume.b7d9a48e.pdf": "/static/media/Samuel C Hsu - Resume.b7d9a48e.pdf",
+    "static/media/Samuel C Hsu - Resume.a8f008ce.pdf": "/static/media/Samuel C Hsu - Resume.a8f008ce.pdf",
     "static/media/samspic.a1cfa821.png": "/static/media/samspic.a1cfa821.png"
   },
   "entrypoints": [
@@ -20,6 +20,6 @@
     "static/css/2.2aa38b9c.chunk.css",
     "static/js/2.b7e61308.chunk.js",
     "static/css/main.7a2502f7.chunk.css",
-    "static/js/main.65dead21.chunk.js"
+    "static/js/main.03d7aba6.chunk.js"
   ]
 }
