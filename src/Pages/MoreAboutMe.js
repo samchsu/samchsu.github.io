@@ -39,6 +39,9 @@ function MoreAboutMe() {
                 <div className = "topic">Projects</div>
               </div>
               <div className="projects-container">
+                <div className="projects" type="button" onClick={(e) => { e.preventDefault(); window.location.href='https://daily-snapshot.herokuapp.com/';}}>
+                  <h1>Daily Snapshot</h1>
+                </div>
                 <div className="projects" type="button" onClick={(e) => { e.preventDefault(); window.location.href='https://github.com/samchsu/samchsu.github.io';}}>
                   <h1>Web Portfolio</h1>
                 </div>
@@ -69,7 +72,7 @@ function MoreAboutMe() {
                       </VerticalTimelineElement>
                       <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        date="Sep 2020 - Present"
+                        date="Sep 2020 - Mar 2022"
                         dateClassName={ "timeline-date-color" }
                         contentStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
                         iconStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
