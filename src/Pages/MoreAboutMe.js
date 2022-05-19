@@ -19,11 +19,11 @@ function MoreAboutMe() {
           <div className="section-aboutme" id="aboutme">
             <Fade>
               <div className="text-container"> 
-                <div className = "topic">About Me</div>
+                <div className = "topic">about me</div>
               </div>
               <div className="description-container">
                 <div className = "description">
-                  Hello! Thank you for stopping by~ <br/>
+                  Hello! Thank you for stopping by. <br/>
                   In May 2021, I obtained a B.S. in Computer Science from San Diego State University. <br/>
                   I found interest in web development during college and have been passionate about it ever since! <br/>
                   During my freetime, I enjoy learning about React 🖥️, playing Smash Ultimate 🎮, and playing the piano 🎹 </div>
@@ -36,7 +36,7 @@ function MoreAboutMe() {
           <div className="section-projects" id="projects">
             <Fade>
               <div className="text-container-experience">
-                <div className = "topic">Projects</div>
+                <div className = "topic">projects</div>
               </div>
               <div className="projects-container">
                 <div className="projects" type="button" onClick={(e) => { e.preventDefault(); window.location.href='https://daily-snapshot.herokuapp.com/';}}>
@@ -110,7 +110,7 @@ function MoreAboutMe() {
         <section>
           <div className="section-contact" id="contact">
             <div className="text-container-contact">
-              <div className = "topic">Contact</div>
+              <div className = "topic">contact</div>
             </div>
             <Social/>
           </div>

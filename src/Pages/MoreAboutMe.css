@@ -28,14 +28,13 @@ h1 {
     height: 80px;
     border-width: 1.5px;
     border-style: solid;
-    border-color: lemonchiffon;
+    border-color: #98e5f7;
     /* background-color: #bd4f4f; */
 }
 
 .text-container:hover {
-  background-color: rgb(23, 23, 75);
-  transition:.1s ease-in;
-  color: lemonchiffon;
+  transition:.3s ease-in;
+  color: orange;
 }
 
 .text-container-experience {
@@ -47,14 +46,13 @@ h1 {
   height: 80px;
   border-width: 1.5px;
   border-style: solid;
-  border-color: lemonchiffon;
+  border-color: #98e5f7;
   background-color: #000000;
 }
 
 .text-container-experience:hover {
-  background-color: rgb(23, 23, 75);
-  transition:.1s ease-in;
-  color: lemonchiffon;
+  transition:.3s ease-in;
+  color: orange;
 }
 
 .text-container-contact {
@@ -66,14 +64,13 @@ h1 {
   height: 80px;
   border-width: 1.5px;
   border-style: solid;
-  border-color: lemonchiffon;
+  border-color: #98e5f7;
   /* background-color: #8b4141; */
 }
 
 .text-container-contact:hover {
-  background-color: rgb(23, 23, 75);
-  transition:.1s ease-in;
-  color: lemonchiffon;
+  transition:.3s ease-in;
+  color: orange;
 }
 
 .description-container {
@@ -88,13 +85,13 @@ h1 {
     border-width: 1.5px;
     border-style: solid;
     transition: .5s ease;
-    border-color: lemonchiffon;
+    border-color: #fff;
     background-color: #000000;
     transform: translateX(-50px);
 }
 
 .description-container:hover {
-  border-color:rgb(54, 54, 231);
+  border-color:#98e5f7;
 }
 
 .image-container {
@@ -135,11 +132,16 @@ h1 {
   display: flex;
   border-width: 1.5px;
   border-style: solid;
-  border-color: lemonchiffon;
+  border-color: #fff;
 }
 
 .timeline-date-color {
   color: #fff;
+}
+
+.timeline:hover {
+  border-color: #98e5f7;
+  transition: .5s ease;
 }
 
 .projects {
@@ -152,7 +154,8 @@ h1 {
   border-width: 1.5px;
   border-style: solid; 
   transition: .5s ease;
-  /* background-color: #b64848; */
+  border-color: #fff;
+  color: #fff;
   cursor: pointer;
 }
 

@@ -23,7 +23,7 @@ body {
 Footer{
   position: relative;
   background-color: #000000;
-  color: lemonchiffon;
+  color: #98e5f7;
   text-align: center;
   font-size: 12px;
 }
@@ -33,7 +33,7 @@ a:hover {
 }
 
 body {
-  color: #bbcdff;
+  color: #98e5f7;
   overflow-x: hidden;
   margin: 0;
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -62,7 +62,7 @@ body {
 }
 
 span {
-  color: #E8AB4C;
+  color: #fff;
 }
 
 .partext-wrapper {
@@ -75,13 +75,13 @@ span {
   height: 99.85vh;
   position: relative;
   display: flex;
-  background-color: black;
+  background-color: #000000;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   z-index: 0;
   overflow: hidden;
-  border-bottom: 2px solid rgb(104, 108, 170);
+  border-bottom: 1px solid #98e5f7;
 }
 
 
@@ -94,7 +94,6 @@ span {
   z-index: 0;
   overflow: hidden;
   height: 500px;
-  border-bottom: 2px solid rgb(104, 108, 170);
   padding-bottom: 50px;
 }
 
@@ -105,8 +104,13 @@ img {
 
 .text-landing{
   font-size: 84px;
-  color: #E8AB4C;
+  color: #FFF;
   z-index: 0;
+}
+
+.text-landing:hover { 
+  transition: .5s ease;
+  color: orange;
 }
 
 .text-desc{
@@ -145,11 +149,11 @@ img {
   justify-content: center;
   display: flex;
   font-size: 36px;
-  color: #E8AB4C;
+  color: #fff;
   cursor: pointer;
   padding: 20px;
-  width: 100%;
-  transition: .3s ease;
+  width: 20%;
+  transition: .5s ease;
   z-index: 0;
 }
 
@@ -158,33 +162,32 @@ img {
   justify-content: center;
   display: flex;
   font-size: 36px;
-  color: #E8AB4C;
+  color: #fff;
   cursor: pointer;
   padding: 20px;
-  width: 100%;
-  transition: .3s ease;
   z-index: 0;
 }
 
 .social-text:hover { 
-  border: .5px solid #98e5f7; 
-  color: #98e5f7;
+  transition: .5s ease;
+  color: orange;
 }
 
 .email-text:hover span {
+  transition: .5s ease;
   display: none;
 }
 
 
 .email-text:hover:before {
+  transition: .5s ease;
   display: flex;
   width: 100%;
   padding: 20px;
   justify-content: center;
-  border: .5px solid #98e5f7; 
   font-size: 32px;
   content:"samuel01hsu@gmail.com";
-  color: #98e5f7;
+  color: orange;
   cursor:pointer;
 }
 
@@ -221,8 +224,13 @@ h1{
 
 @media screen and (max-width: 720px){
   .email-text {
-    font-size: 25px;
+    font-size: 25px; 
+    display: flex;
+    width: 100%;
+    padding: 20px;
     border: .5px solid #98e5f7; 
+    transition: .5s ease;
+    color: #98e5f7;
   }
 
   .email-text:hover:before {
@@ -232,7 +240,11 @@ h1{
 
   .social-text {
     font-size: 25px;
+    display: flex;
+    width: 100%;
+    padding: 20px;
     border: .5px solid #98e5f7; 
+    transition: .5s ease;
   }
 }
 

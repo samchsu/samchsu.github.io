@@ -18,10 +18,9 @@ const AboutMe = () => {
 
   return(
     <div className="item-wrapper">
-      <ParticleEffect/>
       <div className="text-wrapper">
         <div className="text-landing">
-          Hi, I'm Sam 
+          Hi, I'm Sam.
         </div> 
         <br></br>
         <div className="text-desc">
