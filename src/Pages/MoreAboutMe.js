@@ -57,6 +57,19 @@ function MoreAboutMe() {
                   <div className="timeline">
                     <VerticalTimeline>
                       <VerticalTimelineElement
+                          className="vertical-timeline-element--work"
+                          date="May 2022 - Present"
+                          dateClassName={ "timeline-date-color" }
+                          contentStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
+                          iconStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
+                        >
+                          <h3 className="vertical-timeline-element-title">Associate Software Engineer</h3>
+                          <h4 className="vertical-timeline-element-subtitle">XiFin</h4>
+                          <p>
+                              I developed and maintained interfaces with Mirth Engine using JavaScript and Java
+                          </p>
+                      </VerticalTimelineElement>
+                      <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
                         contentArrowStyle={{ borderRight: '7px solid  rgb(255,250,205)' }}
@@ -68,19 +81,6 @@ function MoreAboutMe() {
                         <h4 className="vertical-timeline-element-subtitle">Mathly</h4>
                         <p>
                           I worked in Full Stack Development, focused on AWS and React.js (frontend) with Node.js (backend)
-                        </p>
-                      </VerticalTimelineElement>
-                      <VerticalTimelineElement
-                        className="vertical-timeline-element--work"
-                        date="Sep 2020 - Mar 2022"
-                        dateClassName={ "timeline-date-color" }
-                        contentStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
-                        iconStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
-                      >
-                        <h3 className="vertical-timeline-element-title">Web Designer</h3>
-                        <h4 className="vertical-timeline-element-subtitle">Open Dyalog</h4>
-                        <p>
-                            I worked remotely to make the Open Dyalog website a central hub
                         </p>
                       </VerticalTimelineElement>
                       <VerticalTimelineElement
