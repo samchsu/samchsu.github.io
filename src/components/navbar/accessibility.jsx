@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Redirect } from "react-router-dom";
-import resume from "../../assets/docs/Samuel C Hsu - Resume.pdf"
+import resume from "../../assets/docs/Samuel_C_Hsu-Resume.pdf"
 const AccessibilityContainer = styled.div`
   display: flex;
   justify-content: center;
